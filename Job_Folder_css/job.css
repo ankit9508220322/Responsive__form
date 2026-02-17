@@ -1,0 +1,87 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(81, 137, 187);
+}
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    
+    
+}
+.apply{
+    max-width: 600px;
+    padding: 20px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    box-shadow: 4px 3px 5px rgba(168, 4, 4, 0.3);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.form-conrol{
+    display: grid;
+    justify-content: baseline;
+    font-size: x-large;
+    font-weight:600 ;
+    /* grid-template-columns: repeat(auto-fit,maxmax(200px,ifr)); */
+}
+#photo{
+    height: 190px;
+    width: 180px;
+   
+   margin-left: 190px;
+   border-radius: 50px;
+    
+    
+}
+#h2{
+
+ background-color: rgb(238, 238, 190);
+ border-radius: 5rem;
+   font-size: x-large;
+   font-weight: 80;
+   text-align: center;
+   justify-content: center;
+}
+.botton-container{
+    /* display: grid; */
+    justify-content: flex-start;
+    height: 80px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 190px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    
+
+}
+#app{
+     height: 40px;
+    width: 20vh;
+    background-color: aqua;
+    margin-right: 50px;
+    font-size: x-large;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#re{
+    height: 40px;
+    width: 180%;
+    background-color: rgb(216, 7, 35);
+    margin-left: 20px;
+    font-size: x-large;
+    border-radius: 10px;
+    cursor: pointer;
+     /* margin-bottom: 30px; */
+    
+}
+h4{
+    font-size: x-large;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
